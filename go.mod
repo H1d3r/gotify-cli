@@ -1,6 +1,6 @@
 module github.com/gotify/cli/v2
 
-go 1.23
+go 1.23.0
 
 toolchain go1.24.1
 
@@ -9,7 +9,7 @@ require (
 	github.com/go-openapi/runtime v0.28.0
 	github.com/gotify/go-api-client/v2 v2.0.4
 	github.com/tj/go-spin v1.1.0
-	golang.org/x/crypto v0.24.0
+	golang.org/x/crypto v0.35.0
 	gopkg.in/urfave/cli.v1 v1.20.0
 )
 
@@ -37,7 +37,7 @@ require (
 	go.opentelemetry.io/otel/metric v1.24.0 // indirect
 	go.opentelemetry.io/otel/trace v1.24.0 // indirect
 	golang.org/x/sync v0.6.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
-	golang.org/x/term v0.21.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
